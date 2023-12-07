@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#container-header{
+    width: 95%;
+    height: 55px;
+    margin: 8px auto;
+    display: flex;
+}
+
+#logo{
+    margin: 12px 0;
+    width: 50%;
+}
+
+#header-opt{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.fundo-svg-config{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #F0F4F6;
+}
+
+.fundo-svg-perfil{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFD1D3;
+    margin-left: 16px;
+}
+
+#svg-perfil{
+    width: 18px;
+    height: 18px;
+}
+/* FIM HEADER */
+
+/* MENU LATERAL */
+
+#menu-lateral{
+    width: 232px;
+    border-right:1px solid #F0F4F6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   
+}
+
+#nav-lateral{
+    display: flex;
+    flex-direction: column;
+
+}
+#nav-lateral li{
+    height: 38px;
+    list-style: none;
+    color: #2D3E50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 16px 0 0 16px;
+    }
+
+#nav-lateral a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    display: flex;
+}
+.icons{
+    align-self: center;
+    margin-right: 10px;
+}
+
+#container-princip{
+    display: flex;
+
+}
+
+#main-container{
+    width: 1004px;
+    height: 100vh;
+    margin: 16px 30px;
+
+}
+
+#contador{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #F0F4F6;
+}
+
+#contador ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#contador li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    height: 81px;
+    border: 1px solid #DFE4E7;
+    border-radius: 8px;
+    padding-left: 24px; 
+}
+
+#contador h3{
+    font-size: 14px;
+    color: #7D8A98
+}
+
+#contador p{
+    font-size: 16px;
+}
+
+#first-form{
+    margin-top: 16px;
+    height: 40px;
+
+}
+
+#first-form ul{
+    display: flex;
+    list-style: none;
+}
+
+#first-form [type="submit"]{
+    width: 140px;
+    height: 40px;
+    background-color: #B71319;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-image: url(img/mais.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80%;
+    background-position-y: center;
+    padding: 0px 50px 0 24px;
+}
+
+#first-form [type="text"]{
+    height: 40px;
+    width: 275px;
+    border-radius: 8px;
+    border: 1px solid #D8DFE8;
+    margin-left: 390px;
+    padding-left: 16px;
+    background-image: url(img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+
+#agendamento li, a{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-left: 8px;
+}
+.icons-2{
+    margin: 0 8px;
+}
+
+#week-text{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+#week-text h2{
+    font-size: 20px;
+    color: #2D3E50;
+    margin-right: 16px;
+}
+
+#week-text p{
+    font-size: 16px;
+    color: #7D8A98;
+}
+
+.andamento-main{
+    height: 574px;
+    background-color: #F0F4F6;
+    border-radius: 8px;
+}
+
+#header-andamento{
+    list-style: none;
+    display: flex;
+    height: 30px;
+    margin-top: 16px;
+    padding-top: 16px;
+
+}
+#header-andamento li{
+    margin-left: 24px;
+}
+#client{
+    padding-left: 16px;
+    width: 285px;
+}
+
+#pay{
+    width: 217px;
+
+}
+#entrega{
+    width: 105px;
+}
+#data{
+    width: 105px;
+}
+
+
+.card-area{
+    display: flex;
+    margin: 8px  16px;
+    background-color: #FFF;
+    border-radius: 8px;
+    height: 72px;
+}
+.card1{
+    width: 285px;
+    margin-right: 24px;
+    padding: 14px 0 14px 24px;
+
+}
+.card1 h2{
+    font-size: 16px;
+}
+.card1 p{
+    font-size: 14px;
+}
+
+
+
+.card2{
+    width: 96px;
+    margin-right: 8px;
+    padding: 14px 0;
+}
+.card2 h2{
+    font-size: 15px;
+}
+.card2 p{
+    font-size: 13px;
+}
+
+
+
+.card3-ok{
+    width: 114px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00CC76;
+    background-color: #00cc761a;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+
+}
+.card3-ok h2{
+    font-size: 16px;
+
+}
+.card3{
+    width: 114px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ECE2B1;
+    background-color: #FEFBE1;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+
+}
+.card3 h2{
+    font-size: 16px;
+
+}
+
+
+
+
+.card4-ok{
+    width: 105px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00CC76;
+    background-color: #00cc761a;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+}
+.card4-ok h2{
+    font-size: 16px;
+}
+
+.card4{
+    width: 105px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ECE2B1;
+    background-color: #FEFBE1;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+}
+.card4 h2{
+    font-size: 16px;
+}
+
+.card4-rec{
+    width: 105px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFD1D3;
+    background-color: #FFEEEF;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+}
+.card4-rec h2{
+    font-size: 16px;
+}
+
+.card4-fin{
+    width: 105px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DFE4E7;
+    background-color: #F0F4F6;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-right: 24px;
+}
+.card4-fin h2{
+    font-size: 14px;
+}
+
+.card5{
+    width: 104px;
+    margin-right: 24px;
+    margin-top: 22px;
+}
+.card5 p{
+    font-size: 15px;
+}
+
+
+
+.card6{
+    width: 124px;
+    height: 40px;
+    background-color: #F0F4F6;
+    border-radius: 8px;
+    margin-top: 16px;
+} 
+.card6 p{
+    font-size: 16px;
+}
+
+#recolhimentos{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+#recolhimentos h2{
+    font-size: 20px;
+    color: #2D3E50;
+}
+
